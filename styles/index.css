@@ -13,6 +13,12 @@
 /* width 1140px */
 
 /* functional variable start */
+.center{
+    text-align: center;
+}
+.m_b{
+    margin-bottom: 40px;
+}
 .nav_tamim{
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
@@ -29,14 +35,31 @@
     border-radius: 8px;
     opacity: 0.8;
 }
+.b_c_button{
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+.b_h_text{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+}
+.p_discription{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
 
 /* end functional variable */
 
 /* header start /////*/
-#header{
-    max-width: 1440px;
-    margin: auto;
-}
 #header>nav{
     width: 1140px;
     height: 131px;
@@ -54,6 +77,30 @@ nav>ul>li>a{
     text-decoration: none;
 }
 /* banar */
-
+.header_banar{
+    width: 1440px;
+    height: 652px;
+    margin: auto;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.banar_box{
+    width: 1140px;
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banar_content{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* end header /////*/
