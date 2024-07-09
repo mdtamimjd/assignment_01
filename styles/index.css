@@ -7,5 +7,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
 }
+/* max-width 1440px */
 /* width 1140px */
+
+/* functional variable start */
+.nav_tamim{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-weight: 800;
+}
+.nav_d_button{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+/* end functional variable */
+
+/* header start /////*/
+#header{
+    max-width: 1440px;
+    margin: auto;
+}
+#header>nav{
+    width: 1140px;
+    height: 131px;
+    margin: auto;
+}
+nav>ul{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+/* banar */
+
+
+/* end header /////*/
