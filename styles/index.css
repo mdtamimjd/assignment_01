@@ -67,6 +67,11 @@
     font-size: 24px;
     font-weight: 700;
 }
+.h3_title_24{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
 .l_m_button{
     padding: 12px 20px 12px 20px;
     color: rgb(13, 19, 33);
@@ -78,6 +83,21 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
+.l_m_b_u{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+.btn_n{
+    border: none;
+    background-color:transparent;
+}
+.m_8{
+    margin-bottom: 8px;
+}
+
 
 /* end functional variable */
 
@@ -243,6 +263,9 @@ nav>ul>li>a{
     height: 115px;
     margin: auto;
 }
+.inspiration_title>h2{
+    margin-bottom: 24px;
+}
 .inspiration_video{
     width: 1140px;
     height: 614px;
@@ -263,3 +286,67 @@ nav>ul>li>a{
 }
 
 /* end inspiration */
+
+/* current section start */
+
+.current{
+    width: 1140px;
+    height: 460px;
+    margin:151px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.current_text{
+    width: 946px;
+    height: 113px;
+}
+.current_text>h2{
+    margin-bottom: 24px;
+}
+.current_container{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+}
+.current_container>div{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.current_container>div>div{
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.current_container>div>div>img{
+    width: 56px;
+    height: 56px;
+}
+
+/* end section current target */
+
+/* start section support */
+.support{
+    width: 1140px;
+    height: 313px;
+}
