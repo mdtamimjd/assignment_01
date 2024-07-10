@@ -227,3 +227,39 @@ nav>ul>li>a{
     justify-content: space-between;
     flex-direction: column;
 }
+
+/* section inspiration */
+.inspiration{
+    width: 1140px;
+    height: 777px;
+    margin:88px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inspiration_title{
+    width: 852px;
+    height: 115px;
+    margin: auto;
+}
+.inspiration_video{
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inspiration_video>div{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+.inspiration_video>div>iframe{
+    border-radius: 16px;
+}
+
+/* end inspiration */
