@@ -56,6 +56,28 @@
     font-weight: 400;
     opacity: 0.7;
 }
+.h2_text{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.h3_title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+.l_m_button{
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
 
 /* end functional variable */
 
@@ -104,3 +126,104 @@ nav>ul>li>a{
 }
 
 /* end header /////*/
+/* section why start */
+#main{
+    max-width: 1440px;
+    margin:74px auto 0;
+}
+.why{
+    width: 1140px;
+    height: 1395px;
+    margin: auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why_box{
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.why_text_content{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why_container1{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why_container1>div{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why_container1_content{
+    width: 477px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.why_container2{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why_container2>div{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.why_container2_content{
+    margin-left: 48px;
+    width: 477px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.why_container3{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why_container3>div{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why_container3_content{
+    width: 477px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
