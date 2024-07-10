@@ -34,6 +34,7 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
 }
 .b_c_button{
     color: rgb(255, 255, 255);
@@ -44,6 +45,7 @@
     border: none;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    cursor: pointer;
 }
 .b_h_text{
     color: rgb(13, 19, 33);
@@ -56,10 +58,22 @@
     font-weight: 400;
     opacity: 0.7;
 }
+.p_discription_w{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
 .h2_text{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
+    text-align: center;
+}
+.h2_text_w{
+    color:white;
+    font-size: 32px;
+    font-weight: 700;
     text-align: center;
 }
 .h3_title{
@@ -82,6 +96,7 @@
     padding: 12px 20px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    cursor: pointer;
 }
 .l_m_b_u{
     color: rgb(13, 19, 33);
@@ -96,6 +111,12 @@
 }
 .m_8{
     margin-bottom: 8px;
+}
+.footer_text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -349,4 +370,84 @@ nav>ul>li>a{
 .support{
     width: 1140px;
     height: 313px;
+    margin: 49px auto 0;
+    border-radius: 16px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support_box{
+    width: 1044px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.support_text{
+    width: 730px;
+    height: 104px;
+    margin: auto;
+}
+.support_text>h2{
+    margin-bottom: 16px;
+}
+.support_form{
+    width: 684px;
+    height: 57px;
+}
+.support_form>form{
+    width: 684px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.text_input{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+input[type="submit"]{
+    width: 120px;
+    height: 56px;
+    padding: 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer start */
+#footer{
+    margin: 80px auto 0;
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_box{
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.victore>img{
+    width: 36px;
+    height: 36px;
+    margin-left: 24px;
 }
